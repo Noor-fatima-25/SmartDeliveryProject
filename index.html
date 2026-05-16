@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Delivery Route Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚚 Smart Delivery Route Planner</h1>
+
+<div class="box">
+
+<label>Source:</label>
+<select id="source">
+    <option>Warehouse</option>
+    <option>Latifabad</option>
+    <option>Qasimabad</option>
+    <option>Hyderabad City</option>
+</select>
+
+<br><br>
+
+<label>Destination:</label>
+<select id="destination">
+    <option>Warehouse</option>
+    <option>Latifabad</option>
+    <option>Qasimabad</option>
+    <option>Hyderabad City</option>
+</select>
+
+<br><br>
+
+<label>Weather:</label>
+<select id="weather">
+    <option>Normal</option>
+    <option>Rainy</option>
+    <option>Storm</option>
+</select>
+
+<br><br>
+
+<button onclick="calculateRoute()">Find Best Route</button>
+
+<p id="result"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
